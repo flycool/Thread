@@ -1,0 +1,11 @@
+package com.javathreads.example.typegame;
+
+public class CharacterEvent {
+    public CharacterSource source;
+    public int character;
+    
+    public CharacterEvent(CharacterSource cs, int c) {
+        source = cs;
+        character = c;
+    }
+}
